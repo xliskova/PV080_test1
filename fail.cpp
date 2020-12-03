@@ -26,7 +26,7 @@ int memcheckFailDemo(int* arrayStack, unsigned int arrayStackLen,
 }
 
 int main(void) {
-  int arrayStack[5];
+  int arrayStack[200];
   int* arrayHeap = new int[5];
   memcheckFailDemo(arrayStack, 5, arrayHeap, 5);
   return 0;
